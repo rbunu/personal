@@ -1,1 +1,20 @@
-
+#include <iostream>
+#include <string>
+using namespace std;
+int find(string word, char letter){
+    for(int i=0;i<word.length(); i++){
+        if(word[i]==letter){
+            return i;
+        }
+        }
+        return -1;
+    }
+int main() {
+    string word;
+    char letter;
+    
+    cout <<"enter a word and letter";
+    cin>>word>>letter;
+    cout<<find(word,letter) << endl;
+    return 0;
+}
