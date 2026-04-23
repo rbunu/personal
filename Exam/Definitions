@@ -1,0 +1,19 @@
+
+
+//a)
+//Pass by value: A copy of the variable is sent. changes inside the function do NOT affect the original.
+
+//Pass by Reference: The actual variable is sent. Changes inside the function DO affect the original
+
+//b)
+//Both are used to repeat a process until a codition is met
+
+//c)
+
+//Recursive: Function calls itself
+//Interative: Uses loops(for,while) to repeat
+
+//d)F2 is a reference parameter, but 25 is a literal, not a variable
+
+float x=25;
+cout<<functionA(12.3,x)<<endl;

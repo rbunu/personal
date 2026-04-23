@@ -1,0 +1,7 @@
+
+//a)
+int getmaxvalue(int a,int b, int c);
+
+//b)
+
+void averagevalue(float a, float b, float c, float&avg)
